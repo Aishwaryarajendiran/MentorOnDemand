@@ -11,6 +11,8 @@ namespace MOD.AuthLibrary.Models
         [Required]
         public string Name { get; set; }
         [Required]
+        public string Commission { get; set; }
+        [Required]
         public MODUser AdminUser { get; set; }
     }
 }
